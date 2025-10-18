@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "SkipVids Cleaner",
+    "version": "1.2",
+    "description": "Removes the search bar and footer banner from SkipVids for a cleaner experience. Toggle on/off in the extension popup.",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://skipvids.com/*", "*://*.skipvids.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "SkipVids Cleaner"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
