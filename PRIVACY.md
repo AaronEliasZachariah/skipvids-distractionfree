@@ -19,4 +19,4 @@ Effective Date: February 11, 2026
 
 4. Third-Party Services We do not use third-party analytics, tracking, or advertising tools.
 
-5. Contact If you have any questions regarding this policy, please contact eliascorp.org
+5. Contact If you have any questions regarding this policy, please contact https://aeliasz.com/#contact
